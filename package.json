@@ -1,0 +1,14 @@
+{
+  "name": "sealed-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "update": "node fetchSealed.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2"
+  }
+}
